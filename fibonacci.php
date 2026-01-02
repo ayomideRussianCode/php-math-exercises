@@ -17,4 +17,5 @@ function fibonacci ($n){
 
 echo fibonacci(7);
 
+echo 'test';
 ?>
