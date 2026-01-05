@@ -13,9 +13,9 @@ function fibonacci($n){
         $index = 0;
         
     }
-   return  fibonacci([$n]);
+   return  fibonacci(7);
 }
-echo fibonacci([7]);
+echo fibonacci(7);
 
 
 ?>
