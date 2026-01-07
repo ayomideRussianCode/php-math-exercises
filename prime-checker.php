@@ -1,13 +1,29 @@
 <?php
 
-function isPrime($num) {
+function isPrime($number) {
 
-//take a number and divide it by 0,2,3,4,5,6,7,8,9 if it has a remainder
-
-$number = 2;
+    //numbers less than 2 are not prime
+    if($number < 2){
+        return false;
+    }
+    for($i=2; $i < $number/2; $i++){
+        if($number % $i == 0){
+            return false;
+        }
+    }
+    return true;
 
 
 }
-echo isPrime(17) ? "Prime" : "Not Prime";
+echo isPrime(67) ? "Prime" : "Not Prime";
+echo '<br>';
+echo isPrime(19) ? "Prime" : "Not Prime";
+echo '<br>';
+echo isPrime(1957) ? "Prime" : "Not Prime";
+echo '<br>';
+echo isPrime(2) ? "Prime" : "Not Prime";
+echo '<br>';
+echo isPrime(68) ? "Prime" : "Not Prime";
+
 
 ?>
