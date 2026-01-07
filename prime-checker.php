@@ -3,7 +3,7 @@
 function isPrime($number) {
 
     //numbers less than 2 are not prime
-    if($number < 2){
+    if($number < 2 || $number-1 < 2){
         return false;
     }
     for($i=2; $i < $number/2; $i++){
@@ -19,7 +19,8 @@ echo isPrime(67) ? "Prime" : "Not Prime";
 echo '<br>';
 echo isPrime(19) ? "Prime" : "Not Prime";
 echo '<br>';
-echo isPrime(1957) ? "Prime" : "Not Prime";
+echo isPrime(-100) ? "Prime" : "Not Prime";
+//check for negative numbers
 echo '<br>';
 echo isPrime(2) ? "Prime" : "Not Prime";
 echo '<br>';
