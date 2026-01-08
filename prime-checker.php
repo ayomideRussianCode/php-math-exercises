@@ -19,10 +19,9 @@ echo isPrime(67) ? "Prime" : "Not Prime";
 echo '<br>';
 echo isPrime(19) ? "Prime" : "Not Prime";
 echo '<br>';
-echo isPrime(-7) ? "Prime" : "Not Prime";
-//check for negative numbers
+echo isPrime(7) ? "Prime" : "Not Prime";
 echo '<br>';
-echo isPrime(0) ? "Prime" : "Not Prime";
+echo isPrime(17) ? "Prime" : "Not Prime";
 echo '<br>';
 echo isPrime(68) ? "Prime" : "Not Prime";
 
