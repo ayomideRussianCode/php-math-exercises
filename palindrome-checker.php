@@ -2,6 +2,11 @@
 
 echo '<h1>Palindrome  Checker</h1>';
 
+
+function isPalindrome(){
+    
+}
+
 // $string = 'lol';
 // $convert = strrev($string);
 
@@ -14,19 +19,19 @@ echo '<h1>Palindrome  Checker</h1>';
 //     return false;
 // }
 
-function isPalindrome($string){
+// function isPalindrome($string){
 
-$convert = strrev($string);
+// $convert = strrev($string);
 
-if($string == $convert){
+// if($string == $convert){
   
-    echo $convert  .  ' is a palindrome';
+//     echo $convert  .  ' is a palindrome';
 
-} else {
-     return $string  .  ' is not a palindrome!';
- }
-}
-echo isPalindrome('1001');
+// } else {
+//      return $string  .  ' is not a palindrome!';
+//  }
+// }
+// echo isPalindrome('1001');
 
 
  ?>
