@@ -2,6 +2,8 @@
 
 echo '<h1>Palindrome  Checker</h1>';
 
+echo 'let us finnish this by 24th of Jan 2026';
+
 
 function isPalindrome(){
     
