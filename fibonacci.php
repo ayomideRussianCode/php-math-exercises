@@ -1,19 +1,21 @@
 <?php 
 
-echo "<h1>Fibonacci</h1>";
+echo "<h1>Fibonacci Sequence Generator</h1>";
 
 function fibonacci($n){
-    
 
+    $n1 = 1;
+    $n2 = 0;
     for($index = 0; $index <= $n; $index++){
 
-        while($index<=$n){
-            $index++;
-        }
-        $index = 0;
+      echo $n2. ',';
+
+      $nth = $n1 +$n2;
+      $n1 = $n2;
+      $n2 = $nth;
         
     }
-   return  fibonacci(7);
+
 }
 echo fibonacci(7);
 
