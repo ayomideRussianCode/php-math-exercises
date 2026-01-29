@@ -7,6 +7,8 @@ function isArmstrong($number){
 
     $sum = 0;
 
-    while($number21 > 0)
+    while($number > 0)
 }
- ?>
+
+
+?>
