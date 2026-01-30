@@ -6,9 +6,9 @@ function fibonacci($n){
 
     $n1 = 1;
     $n2 = 0;
-    for($index = 0; $index <= $n; $index++){
+    for($index = 1; $index <= $n; $index++){
 
-      echo $n2. ',';
+       echo $n2. ',';
 
       $nth = $n1 + $n2;
       $n1 = $n2;
