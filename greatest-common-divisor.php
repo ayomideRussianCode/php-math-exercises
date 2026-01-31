@@ -2,8 +2,13 @@
 
 echo "<h1>Greatest Common Divisor</h1>";
 
+//since we're finding a GCD of two positive integers, we need 2 numbers
+
 function findGcd($a, $b){
 
+
+    //min is used here to ensure the search for the gcd stops at the value of rhe smaller number
+    
     $minValue = min($a, $b);
     $gcd = 0;
 
@@ -15,6 +20,6 @@ function findGcd($a, $b){
     }
     return $gcd;
 }
-echo "GCD: " . findGcd(20, 30);
+echo "GCD: " . findGcd(5, 100);
 
 ?>

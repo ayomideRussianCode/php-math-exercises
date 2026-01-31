@@ -10,6 +10,8 @@ function isPalindrome($num){
     $sum = 0;
     while(floor($number)){
 
+        //floor is used to estimate the integer value of any float result I might get 
+        
         $rem = $number % 10;
         $sum = $sum * 10 + $rem;
         $number = $number /10;
@@ -17,9 +19,9 @@ function isPalindrome($num){
 
     return $sum==$num;
 }
-echo isPalindrome(121) ? "It's a Palindrome" : "Not a Palindrome";
+echo isPalindrome(-121) ? "It's a Palindrome" : "Not a Palindrome";
 echo '<br>';
-echo isPalindrome(2005) ? "It's a Palindrome" : "Not Palindrome";
+echo isPalindrome(666) ? "It's a Palindrome" : "Not a Palindrome";
 
 
 
