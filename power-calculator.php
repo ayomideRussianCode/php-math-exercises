@@ -16,11 +16,11 @@ echo '<h1>Power Calculator</h1>';
 // echo  calcPower(2, 4);
 
 
-function calcPower ($base , $exponent){
+function calcPower ($base, $exponent){
 
     $power = 1;
 
-    for($i = 1; $i<= $exponent; $i++){
+    for($i = 1; $i <= $exponent; $i++){
 
         $power = $power * $base;
     }
@@ -28,6 +28,6 @@ function calcPower ($base , $exponent){
     return $power;
 }
 
-echo calcPower(2, 2);
+echo calcPower(2, 3);
 
 ?>
