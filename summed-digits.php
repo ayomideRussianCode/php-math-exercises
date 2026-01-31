@@ -32,5 +32,5 @@ function sumOfDigits($number){
     return $sum;
 }
 
-echo 'Sum: ' . sumOfDigits(234);
+echo 'Sum: ' . sumOfDigits(12345);
 ?>
