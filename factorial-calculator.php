@@ -11,13 +11,13 @@ function factorial ($num) {
 
         $factorial = $factorial * $i;
 
-        return $factorial;
 
 }
+    return $factorial;
 }
 
 
-echo factorial(5). 'is the factorial of 5';
+echo factorial(0). 'is the factorial of';
 
 ?>
 
