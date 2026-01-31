@@ -5,23 +5,26 @@ echo '<h1>Armstrong Number Checker</h1>';
 function isArmstrong($number){
 
     //convert number to string to get the length
-$number = $number;
+$originalNumber = $number;
 $length = strlen((string)$number);
 $output = 0;
 
-for($i=1; $i<=$length; $i++){
+while($number > 0){
 
-    $rem = $number % 10;
-    $output = $output + pow($rem, $length);
+    $digit = $number % 10;
+    $output = $output + pow($digit, $length);
     $number = floor($number/10);
 }
 
-if ($output == $number){
-    return true;
-}
-echo $output;
-}
-echo isArmstrong(153);
+if ($output == $originalNumber){
 
+    return true;
+} else{
+    return false;
+}
+}
+echo isArmstrong(153) ? "Armstrong" : "Not Armstrong";  
+echo '<br>';
+echo isArmstrong(123) ? "Armstrong" : "Not Armstrong"; 
 
 ?>
