@@ -26,11 +26,10 @@ function sumOfDigits($number){
 
         $digit = $number % 10;
         $sum = $sum + $digit;
-
         $number = floor($number/10);
     }
     return $sum;
 }
 
-echo 'Sum: ' . sumOfDigits(12345);
+echo 'Sum: ' . sumOfDigits(12345000);
 ?>

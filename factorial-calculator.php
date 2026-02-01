@@ -19,7 +19,7 @@ function factorial ($num) {
 
 // $output = factorial(5);
 
-echo factorial(5) .  ' is the factorial';
+echo factorial(100) .  ' is the factorial';
 
 ?>
 

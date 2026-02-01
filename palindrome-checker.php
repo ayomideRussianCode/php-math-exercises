@@ -3,7 +3,6 @@
 echo '<h1>Palindrome  Checker</h1>';
 
 
-
 function isPalindrome($num){
 
     $number = $num;
@@ -19,7 +18,7 @@ function isPalindrome($num){
 
     return $sum==$num;
 }
-echo isPalindrome(-121) ? "It's a Palindrome" : "Not a Palindrome";
+echo isPalindrome(101010101010101) ? "It's a Palindrome" : "Not a Palindrome";
 echo '<br>';
 echo isPalindrome(666) ? "It's a Palindrome" : "Not a Palindrome";
 

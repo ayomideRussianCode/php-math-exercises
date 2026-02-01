@@ -16,7 +16,7 @@ echo '<h1>Power Calculator</h1>';
 // echo  calcPower(2, 4);
 
 
-function calcPower ($base, $exponent){
+function calcPower($base, $exponent){
 
     $power = 1;
 
@@ -28,6 +28,6 @@ function calcPower ($base, $exponent){
     return $power;
 }
 
-echo calcPower(2, 3);
+echo calcPower(900, 90);
 
 ?>

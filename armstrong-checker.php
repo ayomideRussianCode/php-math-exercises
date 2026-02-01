@@ -23,8 +23,8 @@ if ($output == $originalNumber){
     return false;
 }
 }
-echo isArmstrong(153) ? "Armstrong" : "Not Armstrong";  
+echo isArmstrong(92727) ? "Armstrong" : "Not Armstrong";  
 echo '<br>';
-echo isArmstrong(123) ? "Armstrong" : "Not Armstrong"; 
+echo isArmstrong(123000) ? "Armstrong" : "Not Armstrong"; 
 
 ?>

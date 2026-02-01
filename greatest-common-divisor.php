@@ -20,6 +20,6 @@ function findGcd($a, $b){
     }
     return $gcd;
 }
-echo "GCD: " . findGcd(5, 100);
+echo "GCD: " . findGcd(5000000, 1);
 
 ?>

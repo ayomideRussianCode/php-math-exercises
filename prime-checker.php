@@ -17,7 +17,7 @@ function isPrime($number) {
 
 
 }
-echo isPrime(67) ? "Prime" : "Not Prime";
+echo isPrime(7883) ? "Prime" : "Not Prime";
 echo '<br>';
 echo isPrime(19) ? "Prime" : "Not Prime";
 echo '<br>';
